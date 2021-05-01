@@ -1,0 +1,32 @@
+#status_list {
+	position: absolute;
+	left   : 11.70%;
+	bottom : 9%;
+	width  : 9.78%; 
+    max-width: 220px;
+    min-width: 152px;
+ border-radius: 25px;
+        float:right;
+        transform: rotate(-90deg);
+}
+
+.status {
+	padding: 1px;
+	margin: -0.05em;
+ border-radius: 25px;
+}
+
+.status_ari {
+    z-index: 2;
+    height : 0.9em;
+	opacity: 0.4;
+ border-radius: 25px;
+}
+
+.status_val {
+    position: absolute;
+    z-index: 1;
+	height : 0.9em;
+	opacity: 0.6;
+ border-radius: 25px;
+}
